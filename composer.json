@@ -20,7 +20,6 @@
       "homepage": "http://en.infinitesoftware.eu/"
     }
   ],
-  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "InfiniteSoftware\\Bundle\\SuluArticlesPublisherBundle\\" : ""
