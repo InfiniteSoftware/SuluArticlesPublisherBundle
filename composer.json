@@ -1,5 +1,5 @@
 {
-  "name": "infinite-software/SuluArticlesPublisherBundle",
+  "name": "infinite-software/sulu-articles-publisher-bundle",
   "description": "Sulu articles publisher bundle",
   "type": "symfony-bundle",
   "require": {
