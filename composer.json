@@ -10,8 +10,7 @@
     "jackalope/jackalope-doctrine-dbal": "^1.2.5",
     "jackalope/jackalope-jackrabbit": "^1.2",
     "ongr/elasticsearch-bundle": "5.0.5",
-    "sulu/article-bundle": "^0.7.1",
-    "infinite-software/sulu-articles-publisher-bundle": "1.0.0"
+    "sulu/article-bundle": "^0.7.1"
   },
   "license": "mit",
   "authors": [
