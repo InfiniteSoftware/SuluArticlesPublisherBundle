@@ -1,8 +1,8 @@
 <?php
 
-namespace AppBundle\Command;
+namespace InfiniteSoftware\Bundle\SuluArticlesPublisherBundle\Command;
 
-use SuluArticlesPublisherBundle\Services\ArticlesPublisherManager;
+use InfiniteSoftware\Bundle\SuluArticlesPublisherBundle\Services\ArticlesPublisherManager;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

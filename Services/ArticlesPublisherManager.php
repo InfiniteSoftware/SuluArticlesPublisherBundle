@@ -1,6 +1,6 @@
 <?php
 
-namespace SuluArticlesPublisherBundle\Services;
+namespace InfiniteSoftware\Bundle\SuluArticlesPublisherBundle\Services;
 
 use ONGR\ElasticsearchBundle\Service\Manager;
 use Sulu\Bundle\ArticleBundle\Admin\ArticleAdmin;
