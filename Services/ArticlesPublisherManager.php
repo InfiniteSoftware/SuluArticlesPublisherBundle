@@ -66,6 +66,8 @@ class ArticlesPublisherManager
         $articles = [];
         $searchResult = $repository->findDocuments($search);
         foreach ($searchResult as $document) {
+            if ($document->getPublished() === null) continue;
+
             if (false !== ($index = array_search($document->getUuid(), $ids))) {
                 $articles[$index] = $document;
             } else {
@@ -78,7 +80,10 @@ class ArticlesPublisherManager
              * @var ArticleDocument $a
              * @var ArticleDocument $b
              */
-            return strtotime($a->getPublished()->format('Y-m-d H:i:s')) + strtotime($b->getPublished()->format('Y-m-d H:i:s'));
+            return strcasecmp(
+                strtotime($b->getPublished()->format('Y-m-d H:i:s')),
+                strtotime($a->getPublished()->format('Y-m-d H:i:s'))
+            );
         });
 
         foreach ($articles as $article) {
