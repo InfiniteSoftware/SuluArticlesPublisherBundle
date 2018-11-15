@@ -1,0 +1,28 @@
+{
+  "name": "infinite-software/sulu-articles-publisher-bundle",
+  "description": "Sulu articles publisher bundle",
+  "type": "symfony-bundle",
+  "require": {
+    "php": "^7.1",
+    "twig/extensions": "^1.0",
+    "symfony/symfony": "^3.4",
+    "sulu/sulu": "~1.6.22",
+    "jackalope/jackalope-doctrine-dbal": "^1.2.5",
+    "jackalope/jackalope-jackrabbit": "^1.2",
+    "ongr/elasticsearch-bundle": "5.0.5",
+    "sulu/article-bundle": "^0.7.1"
+  },
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Infinite Software",
+      "email": "hello@infinitesoftware.eu",
+      "homepage": "http://en.infinitesoftware.eu/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "InfiniteSoftware\\Bundle\\SuluArticlesPublisherBundle\\" : ""
+    }
+  }
+}
