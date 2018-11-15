@@ -4,5 +4,8 @@ services:
     autoconfigure: true
     public: false
 
-  InfiniteSoftware\Bundle\ISLogBundle\:
-    resource: '../../../SuluArticlesPublisherBundle/*'
+  InfiniteSoftware\Bundle\SuluArticlesPublisherBundle\:
+    resource: '../../*'
+
+  InfiniteSoftware\Bundle\SuluArticlesPublisherBundle\Command\ArticlesPublisherCommand:
+    tags: ['console.command']
